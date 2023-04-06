@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b8c1c9;" styleClass="ad3" stylesheets="@image.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchscene.SceneController">
+   <children>
+      <Button layoutX="50.0" layoutY="100.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="481.0" style="-fx-background-color: #0aa0f1;" text="Doctor management" textFill="#141414">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="193.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="481.0" style="-fx-background-color: #0aa0f1;" text="Staff management" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="281.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="481.0" style="-fx-background-color: #0aa0f1;" text="Lab management" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="234.0" layoutY="14.0" prefHeight="50.0" prefWidth="146.0" stylesheets="@image.css" text="ADMIN">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

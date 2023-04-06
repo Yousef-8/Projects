@@ -1,0 +1,104 @@
+
+.root{
+-fx-background-image:url('../sihha19/hi.jpg');
+-fx-background-size:cover;
+}
+
+.phar1{
+-fx-background-image:url('../sihha19/phar1.jpg');
+-fx-background-size:cover;
+}
+
+.pha2{
+-fx-background-image:url('../sihha19/pha2.jpg');
+-fx-background-size:cover;
+}
+
+
+.adm1{
+-fx-background-image:url('../sihha19/adm1.jpg');
+-fx-background-size:cover;
+}
+
+.app1{
+-fx-background-image:url('../sihha19/app1.jpg');
+-fx-background-size:cover;
+}
+
+.admdoc{
+-fx-background-image:url('../sihha19/admdoc.jpg');
+-fx-background-size:cover;
+}
+.paregis2{
+-fx-background-image:url('../sihha19/paregis.jpg');
+-fx-background-size:cover;
+}
+
+.ad3{
+-fx-background-image:url('../sihha19/ad3.jpg');
+-fx-background-size:cover;
+}
+
+.regist{
+-fx-background-image:url('../sihha19/regist.jpg');
+-fx-background-size:cover;
+}
+
+
+.acc{
+-fx-background-image:url('../sihha19/acc.jpg');
+-fx-background-size:cover;
+}
+
+.app{
+-fx-background-image:url('../sihha19/app.jpg');
+-fx-background-size:cover;
+}
+.ana2{
+-fx-background-image:url('../sihha19/an2.jpg');
+-fx-background-size:cover;
+}
+
+.plog{
+-fx-background-image:url('../sihha19/plog.jpg');
+-fx-background-size:cover;
+}
+
+.log{
+-fx-background-image:url('../sihha19/log.jpg');
+-fx-background-size:cover;
+}
+
+.wom{
+-fx-background-image:url('../sihha19/wom.jpg');
+-fx-background-size:cover;
+}
+
+.button {
+
+    -fx-background-color: #27ae60; /* Set button background color */
+    -fx-text-fill: black; /* Set text color */
+    -fx-font-size: 22px; /* Set font size */
+    -fx-font-family: Futura; /* Set font family */
+    -fx-background-radius: 30px; /* Set button border radius */
+    -fx-padding: 10px 20px; /* Set button padding */
+}
+
+.button:hover {
+    /* Button hover effect */
+        -fx-background-color: #2ecc71;
+        -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,6), 12, 0, 0, 0);
+}
+
+.button:pressed {
+    /* Button pressed effect */
+        -fx-background-color: #1abc9c;
+        -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 12, 0, 0, 0);
+}
+
+.label {
+     -fx-fill: FIREBRICK;
+     -fx-font-family: "Arial Black";
+      -fx-font-weight: bold;
+      -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0.5,0.1,0.5,1.5 );
+}

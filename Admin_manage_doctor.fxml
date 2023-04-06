@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1444.0" stylesheets="@image.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sihha19.AdminManageDoctorController">
+   <children>
+      <Label layoutX="415.0" layoutY="21.0" text="Admin-doctor management">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Pane layoutY="68.0" prefHeight="425.0" prefWidth="315.0">
+         <children>
+            <Label layoutX="8.0" layoutY="56.0" text="Passsword">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="18.0" prefHeight="22.0" prefWidth="83.0" text="Username">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="92.0" text="Fullname">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="128.0" prefHeight="22.0" prefWidth="65.0" text="Gender">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="165.0" text="Age">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="199.0" text="Phone">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="236.0" text="Email">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="274.0" text="Qualification">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="313.0" prefHeight="22.0" prefWidth="98.0" text="Department">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="125.0" layoutY="15.0" />
+            <TextField fx:id="tf_email" layoutX="125.0" layoutY="233.0" />
+            <TextField fx:id="tf_gend" layoutX="125.0" layoutY="125.0" />
+            <TextField fx:id="tf_fullname" layoutX="125.0" layoutY="89.0" />
+            <TextField fx:id="tf_qualification" layoutX="125.0" layoutY="271.0" />
+            <TextField fx:id="tf_department" layoutX="125.0" layoutY="311.0" />
+            <TextField fx:id="tf_age" layoutX="125.0" layoutY="162.0" />
+            <TextField fx:id="tf_phone" layoutX="125.0" layoutY="196.0" />
+            <PasswordField fx:id="pf_password" layoutX="125.0" layoutY="53.0" />
+            <Label layoutX="19.0" layoutY="346.0" prefHeight="20.0" prefWidth="76.0" text="Days">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_days" layoutX="125.0" layoutY="344.0" />
+            <Label layoutX="19.0" layoutY="387.0" prefHeight="20.0" prefWidth="76.0" text="Time">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_time" layoutX="125.0" layoutY="385.0" />
+         </children>
+      </Pane>
+      <TableView fx:id="table" layoutX="323.0" layoutY="112.0" onMouseClicked="#getSelected" prefHeight="337.0" prefWidth="1085.0">
+        <columns>
+          <TableColumn fx:id="col_username" prefWidth="85.0" text="Username" />
+          <TableColumn fx:id="col_password" prefWidth="82.0" text="Password" />
+            <TableColumn fx:id="col_fullname" prefWidth="146.0" text="Fullname" />
+            <TableColumn fx:id="col_gender" prefWidth="53.0" text="Gender" />
+            <TableColumn fx:id="col_age" prefWidth="39.0" text="Age" />
+            <TableColumn fx:id="col_phone" prefWidth="95.0" text="Phone" />
+            <TableColumn fx:id="col_email" prefWidth="122.0" text="Email" />
+            <TableColumn fx:id="col_qualification" prefWidth="104.0" text="Qualification" />
+            <TableColumn fx:id="col_department" prefWidth="115.0" text="Department" />
+            <TableColumn fx:id="col_days" prefWidth="115.0" text="Days" />
+            <TableColumn fx:id="col_time" prefWidth="115.0" text="Time" />
+        </columns>
+      </TableView>
+      <Button fx:id="button_add" layoutX="25.0" layoutY="517.0" mnemonicParsing="false" onAction="#Addf" prefHeight="52.0" prefWidth="98.0" text="Add" />
+      <Button fx:id="button_delete" layoutX="254.0" layoutY="517.0" mnemonicParsing="false" onAction="#Deletef" prefHeight="52.0" prefWidth="110.0" text="Delete" />
+      <Button fx:id="button_edit" layoutX="147.0" layoutY="517.0" mnemonicParsing="false" onAction="#Edit" prefHeight="52.0" prefWidth="90.0" text="Edit" />
+      <Button fx:id="button_search" layoutX="199.0" layoutY="587.0" mnemonicParsing="false" onAction="#Searchf" prefHeight="52.0" prefWidth="110.0" text="Search" />
+      <Button layoutX="1277.0" layoutY="579.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="47.0" prefWidth="122.0" style="-fx-background-color: #ef0b0b;" text="Logout" />
+      <TextField fx:id="tf_search" layoutX="25.0" layoutY="594.0" prefHeight="32.0" prefWidth="161.0" />
+      <Button layoutX="1283.0" layoutY="646.0" mnemonicParsing="false" onAction="#Admin_logged_in" prefHeight="38.0" prefWidth="110.0" text="Back" />
+   </children>
+</AnchorPane>

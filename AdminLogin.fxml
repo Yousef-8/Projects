@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b8c1c9;" styleClass="ad3" stylesheets="@image.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sihha19.HelloController">
+    <children>
+        <Label layoutX="200.0" layoutY="20.0" text="Admin login">
+            <font>
+                <Font name="Telugu MN Bold" size="30.0" />
+            </font>
+        </Label>
+        <Button fx:id="button_back" layoutX="34.0" layoutY="335.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="52.0" prefWidth="524.0" style="-fx-background-color: #b5d630;" text="Back ">
+            <font>
+                <Font name="Arial Bold Italic" size="27.0" />
+            </font>
+        </Button>
+        <Label layoutX="93.0" layoutY="84.0" prefHeight="73.0" prefWidth="179.0" text="Username: ">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="93.0" layoutY="149.0" prefHeight="61.0" prefWidth="168.0" text="Password:">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tf_admin_username" layoutX="242.0" layoutY="100.0" prefHeight="40.0" prefWidth="236.0" promptText="username">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <CheckBox layoutX="99.0" layoutY="236.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="168.0" text="Remember Me">
+            <font>
+                <Font name="Apple Braille" size="14.0" />
+            </font>
+        </CheckBox>
+        <Button fx:id="button_login" layoutX="34.0" layoutY="273.0" mnemonicParsing="false" onAction="#ButtonlogOnAction" prefHeight="51.0" prefWidth="533.0" style="-fx-background-color: #0aa0f1;" text="LOGIN">
+            <font>
+                <Font name="Arial Bold Italic" size="27.0" />
+            </font>
+        </Button>
+        <PasswordField fx:id="pf_admin_password" layoutX="242.0" layoutY="157.0" prefHeight="44.0" prefWidth="236.0" promptText="password">
+         <font>
+            <Font size="20.0" />
+         </font></PasswordField>
+    </children>
+</AnchorPane>

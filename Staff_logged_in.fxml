@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b8c1c9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sihha19.HelloController">
+   <children>
+      <Label layoutX="233.0" layoutY="14.0" prefHeight="46.0" prefWidth="117.0" text="  SIHHA">
+         <font>
+            <Font name="Telugu MN Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_doctors" layoutX="37.0" layoutY="87.0" mnemonicParsing="false" onAction="#Doctor_login" prefHeight="46.0" prefWidth="521.0" style="-fx-background-color: #0aa0f1;" text="Doctors">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="button_pharmacy_staff" layoutX="38.0" layoutY="219.0" mnemonicParsing="false" onAction="#Pharmacy_login" prefHeight="46.0" prefWidth="521.0" style="-fx-background-color: #0aa0f1;" text="Pharmacy Staff">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="button_appointment_sceduler" layoutX="38.0" layoutY="154.0" mnemonicParsing="false" onAction="#Appointment_scheduler_login" prefHeight="46.0" prefWidth="521.0" style="-fx-background-color: #0aa0f1;" text="Appoinntment scheduler ">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="23.0" layoutY="347.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="39.0" prefWidth="128.0" style="-fx-background-color: #b5d630;" text="Back">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b8c1c9;" styleClass="pha2" stylesheets="@image.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sihha19.HelloController">
+   <children>
+      <Label layoutX="168.0" layoutY="22.0" text="Pharmacy Staff login">
+         <font>
+            <Font name="Telugu MN Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_back" layoutX="356.0" layoutY="334.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="51.0" prefWidth="211.0" style="-fx-background-color: #b5d630;" text="Back to Login Menu">
+         <font>
+            <Font name="Arial Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="93.0" layoutY="84.0" prefHeight="73.0" prefWidth="179.0" text="Username: ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="149.0" prefHeight="61.0" prefWidth="168.0" text="Password:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_staff_username" layoutX="242.0" layoutY="100.0" prefHeight="40.0" prefWidth="236.0" promptText="username">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_user_password" layoutX="242.0" layoutY="160.0" prefHeight="40.0" prefWidth="236.0" promptText="password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <CheckBox layoutX="99.0" layoutY="236.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="168.0" text="Remember Me">
+         <font>
+            <Font name="Apple Braille" size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="34.0" layoutY="275.0" mnemonicParsing="false" onAction="#pharmacy_staff_logged_in" prefHeight="51.0" prefWidth="533.0" style="-fx-background-color: #0aa0f1;" text="LOGIN">
+         <font>
+            <Font name="Arial Bold Italic" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="334.0" mnemonicParsing="false" onAction="#Staff_logged_in" prefHeight="51.0" prefWidth="168.0" style="-fx-background-color: #b5d630;" text="Back">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

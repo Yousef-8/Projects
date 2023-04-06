@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b8c1c9;" styleClass="phar1" stylesheets="@image.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sihha19.HelloController">
+   <children>
+      <Label layoutX="186.0" layoutY="14.0" prefHeight="52.0" prefWidth="212.0" text="PHARMACY">
+         <font>
+            <Font name="Telugu MN Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="460.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #da2626;" text="Logout">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font></Button>
+      <Button layoutX="95.0" layoutY="110.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="362.0" style="-fx-background-color: #0aa0f1;" text="Billing ">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="97.0" layoutY="185.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="362.0" style="-fx-background-color: #0aa0f1;" text="Medicines">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="98.0" layoutY="261.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="362.0" style="-fx-background-color: #0aa0f1;" text="Accounts">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="27.0" layoutY="339.0" mnemonicParsing="false" onAction="#Staff_logged_in" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #b5d630;" text="Back">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
