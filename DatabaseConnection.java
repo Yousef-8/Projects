@@ -217,7 +217,7 @@ public class DatabaseConnection {
     public Connection getConnection() {
         String Dbname="sihha_database";
         String Username="admin";
-        String Password="20_intellmyjavasqlije23";
+        String Password="123;
         String url="jdbc:mysql://localhost:3306/"+Dbname;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
